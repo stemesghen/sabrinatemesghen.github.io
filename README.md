@@ -4,6 +4,7 @@ Personal website of Sabrina Temesghen, a Software Engineer and Machine Learning 
 
 
 Projects:
+
 Bringing Functional Dark Matter Annotations into the fold| Python, Foldseek, MMseq2		   Jan. 2025 - May 2025
 https://github.com/JXDolan/bring_dark_matter_into_fold
 Designed and implemented a structure-aware protein annotation pipeline to detect remote homologs with low sequence similarity using predicted protein folds.
