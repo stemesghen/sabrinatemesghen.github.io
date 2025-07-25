@@ -34,7 +34,17 @@ Calculated reconstruction errors and latent-space densities using Kernel Density
 Evaluated the model’s performance, achieving effective separation between healthy and parasitized samples with a mean reconstruction error ratio of 3:1.
 
 
-Monte Carlo Simulation for Lennard-Jones Potential | C++, Python, STL, Physics Simulation	        Aug. 2024
+Artificial Neural Network for Regression Tasks | Python, Keras, TensorFlow, Machine Learning                                           Oct. 2024
+https://github.com/stemesghen/Artificial_Neural_Network_model.git
+Designed and trained a fully connected artificial neural network (ANN) for non-linear function approximation. Constructed a multi-layer feedforward architecture using Keras with ReLU activations and MSE loss. Normalized input features and implemented early stopping and batch training to optimize learning efficiency. Compared ANN performance against traditional regression models (Lasso and Ridge), showing improved fit in high-dimensional, non-linear cases. Visualized training loss and prediction accuracy to assess convergence and generalization.
+
+
+Surrogate Modeling with Lasso and Ridge Regression | Python, scikit-learn                                                               Oct. 2024
+https://github.com/stemesghen/Lasso_and_Ridge_Regression_Model.git
+Constructed surrogate models using Lasso and Ridge regression to approximate an unknown target function. Designed polynomial feature matrices and performed hyperparameter optimization via grid search to tune regularization strength (alpha). Evaluated model performance using both train-test split and the entire dataset, comparing predictive accuracy using R² scores. Demonstrated differences in model behavior, with Lasso yielding sparse solutions via feature selection and Ridge improving generalization by mitigating multicollinearity.
+
+
+Monte Carlo Simulation for Lennard-Jones Potential | C++, Python, STL, Physics Simulation	                                              Aug. 2024
 https://github.com/stemesghen/Monte-Carlo-Simulation.git
 Implemented a Monte Carlo simulation in both Python and C++ to study particle systems interacting via the Lennard Jones potential.
 Developed features such as periodic boundary conditions, tail corrections, and cubic lattice generation for initial configurations.
