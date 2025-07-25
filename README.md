@@ -25,6 +25,11 @@ Conducted parameter sweeps (TM-score, E-value, coverage) over 486 combinations t
 Addressed infrastructure limitations by automating access to large structure databases via FoldSeek’s web API and pipeline integration of ESMFold for structure prediction from sequence.
 
 
+Disaster Type and Damage Level Classification from Satellite Imagery | Python, scikit-learn, OpenCV, TensorFlow                      Sept. 2024 – Dec. 2024
+https://github.com/stemesghen/Natural-Disaster-Detection---Computer-Vision.git
+Developed a machine learning pipeline to classify disaster types and damage levels from over 26,000 satellite images covering Hurricane Matthew, Southern California fires, and Midwest flooding. Implemented image preprocessing techniques including resizing, pixel normalization, and thresholding. Extracted structural and texture-based features using Sobel edge detection, RGB channel statistics, Local Binary Patterns (LBP), and Gabor filters. Engineered a feature matrix for supervised learning, training logistic regression and random forest models for binary (disaster type) and multiclass (damage level) classification. Tuned hyperparameters using grid search with cross-validation, evaluating performance with accuracy, F1 score, and cross-entropy loss. Achieved over 93% accuracy in disaster type classification and identified top predictive features such as RGB mean and LBP variance. Addressed class imbalance through sampling strategies and class weighting, and analyzed confusion matrices to interpret model bias and misclassification patterns.
+
+
 Anomaly Detection for Parasitized Cell Images | Python, TensorFlow, Keras, Machine Learning                                            Nov. 2024 
 https://github.com/stemesghen/Anomaly-Detection-for-Parasitized-Cell-Images-.git
 Designed and implemented a convolutional auto encoder for anomaly detection in cell images using Keras and TensorFlow.
