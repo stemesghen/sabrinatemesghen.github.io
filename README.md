@@ -22,13 +22,7 @@ Preprocess multimodal MRI scans (T1CE, T2-weighted, T2-FLAIR) by scaling with Mi
 cropping black spaces, and filtering underrepresented labels.
 Implementing data augmentation using patchify to create smaller patches(64x64x64) for computational efficiency and
 balanced training.
-Design a 3D U-Net architecture with four encoder-decoder layers, leveraging convolutional and up-sampling blocks for high-
-resolution segmentation.
-Optimized the model for segmentation accuracy using custom metrics like Dice Coefficient, Dice Loss, and IoU,
-achieving fine-grained separation of tumor and non-tumor regions.
-Trained and validated the model on 369 patient scans, utilizing batch processing and iterative experiments to tune
-hyperparameters like learning rate and batch size.
-Visualized results with Matplotlib and analyzed performance across multiple segmentation and classification metrics.
+Trained and validated the model on 369 patient scans (augmented to 738) using custom loss functions (Dice Coefficient, Dice Loss, IoU), batch tuning, and hyperparameter optimization; evaluated model performance across accuracy (up to 97.82%), Dice (0.7130–0.9307), and IoU (0.5617–0.8851) metrics, demonstrating strengths in voxel-level classification and over-segmentation reduction. Visualized segmentation outputs and performance trends using Matplotlib and conducted in-depth error analysis to identify false positives and missed tumor regions.
 
 
 Disaster Type and Damage Level Classification from Satellite Imagery | Python, scikit-learn, OpenCV, TensorFlow                      Sept. 2024 – Dec. 2024
