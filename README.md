@@ -17,20 +17,18 @@ Addressed infrastructure limitations by automating access to large structure dat
 
 3D MRI Tumor Segmentation and Classification | Python, TensorFlow, Keras		  Nov. 2024  - Dec. 2024
 https://github.com/stemesghen/3D-MRI-Tumor-Segmentation-and-Classification-3D-Unet-Model-.git
-• Developing a 3D U-Net model for binary classification and segmentation of brain tumors using BraTS2020 MRI datasets.
-• Preprocess multimodal MRI scans (T1CE, T2-weighted, T2-FLAIR) by scaling with MinMaxScaler, combining channels,
+Developing a 3D U-Net model for binary classification and segmentation of brain tumors using BraTS2020 MRI datasets.
+Preprocess multimodal MRI scans (T1CE, T2-weighted, T2-FLAIR) by scaling with MinMaxScaler, combining channels,
 cropping black spaces, and filtering underrepresented labels.
-• Implementing data augmentation using patchify to create smaller patches(64x64x64) for computational efficiency and
+Implementing data augmentation using patchify to create smaller patches(64x64x64) for computational efficiency and
 balanced training.
-
-• Design a 3D U-Net architecture with four encoder-decoder layers, leveraging convolutional and up-sampling blocks for high-
+Design a 3D U-Net architecture with four encoder-decoder layers, leveraging convolutional and up-sampling blocks for high-
 resolution segmentation.
-
-• Optimized the model for segmentation accuracy using custom metrics like Dice Coefficient, Dice Loss, and IoU,
+Optimized the model for segmentation accuracy using custom metrics like Dice Coefficient, Dice Loss, and IoU,
 achieving fine-grained separation of tumor and non-tumor regions.
-• Trained and validated the model on 369 patient scans, utilizing batch processing and iterative experiments to tune
+Trained and validated the model on 369 patient scans, utilizing batch processing and iterative experiments to tune
 hyperparameters like learning rate and batch size.
-• Visualized results with Matplotlib and analyzed performance across multiple segmentation and classification metrics.
+Visualized results with Matplotlib and analyzed performance across multiple segmentation and classification metrics.
 
 
 Disaster Type and Damage Level Classification from Satellite Imagery | Python, scikit-learn, OpenCV, TensorFlow                      Sept. 2024 – Dec. 2024
