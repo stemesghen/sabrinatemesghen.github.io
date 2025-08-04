@@ -17,12 +17,20 @@ Addressed infrastructure limitations by automating access to large structure dat
 
 3D MRI Tumor Segmentation and Classification | Python, TensorFlow, Keras		  Nov. 2024  - Dec. 2024
 https://github.com/stemesghen/3D-MRI-Tumor-Segmentation-and-Classification-3D-Unet-Model-.git
-Designed and implemented a structure-aware protein annotation pipeline to detect remote homologs with low sequence similarity using predicted protein folds.
-Integrated ESMFold and FoldSeek with MetaPathways to identify structurally similar proteins from the ESMAtlas database, filtering for high TM-align scores.
-Developed a hybrid annotation database by combining canonical sequences (SwissProt) with structural homologs identified via FoldSeek, improving recall and coverage of difficult-to-detect functions.
-Used MMseqs2 to validate the augmented database on metagenome-assembled genomes (MAGs) containing both SQR-positive and SQR-negative controls.
-Conducted parameter sweeps (TM-score, E-value, coverage) over 486 combinations to optimize annotation precision and recall, achieving 52 combinations with perfect performance.
-Addressed infrastructure limitations by automating access to large structure databases via FoldSeek’s web API and pipeline integration of ESMFold for structure prediction from sequence.
+• Developing a 3D U-Net model for binary classification and segmentation of brain tumors using BraTS2020 MRI datasets.
+• Preprocess multimodal MRI scans (T1CE, T2-weighted, T2-FLAIR) by scaling with MinMaxScaler, combining channels,
+cropping black spaces, and filtering underrepresented labels.
+• Implementing data augmentation using patchify to create smaller patches(64x64x64) for computational efficiency and
+balanced training.
+
+• Design a 3D U-Net architecture with four encoder-decoder layers, leveraging convolutional and up-sampling blocks for high-
+resolution segmentation.
+
+• Optimized the model for segmentation accuracy using custom metrics like Dice Coefficient, Dice Loss, and IoU,
+achieving fine-grained separation of tumor and non-tumor regions.
+• Trained and validated the model on 369 patient scans, utilizing batch processing and iterative experiments to tune
+hyperparameters like learning rate and batch size.
+• Visualized results with Matplotlib and analyzed performance across multiple segmentation and classification metrics.
 
 
 Disaster Type and Damage Level Classification from Satellite Imagery | Python, scikit-learn, OpenCV, TensorFlow                      Sept. 2024 – Dec. 2024
