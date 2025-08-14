@@ -7,7 +7,7 @@ Projects:
 
 Bringing Functional Dark Matter Annotations into the fold| Python, Foldseek, MMseq2		   Jan. 2025 - May 2025
 https://github.com/JXDolan/bring_dark_matter_into_fold
-Designed and implemented a structure-aware protein annotation pipeline to detect remote homologs with low sequence similarity using predicted protein folds.
+Designed a structure-aware protein annotation pipeline to detect remote homologs with low sequence similarity using predicted protein folds.
 Integrated ESMFold and FoldSeek with MetaPathways to identify structurally similar proteins from the ESMAtlas database, filtering for high TM-align scores.
 Developed a hybrid annotation database by combining canonical sequences (SwissProt) with structural homologs identified via FoldSeek, improving recall and coverage of difficult-to-detect functions.
 Used MMseqs2 to validate the augmented database on metagenome-assembled genomes (MAGs) containing both SQR-positive and SQR-negative controls.
@@ -15,9 +15,15 @@ Conducted parameter sweeps (TM-score, E-value, coverage) over 486 combinations t
 Addressed infrastructure limitations by automating access to large structure databases via FoldSeek’s web API and pipeline integration of ESMFold for structure prediction from sequence.
 
 
+
+Analytic Gradient Implementation for CNDO/2 Hartree–Fock | C++, Armadillo         			         May 2024
+https://github.com/stemesghen/Numerical-Algorithms-Applied-to-Computational-Quantum-Chemistry/tree/main
+Engineered an analytic nuclear gradient module into a CNDO/2 Self-Consistent Field (SCF) quantum chemistry engine to enable efficient geometry optimization without relying on finite-difference derivatives. This involved deriving and implementing the x and y coefficient matrices from SCF energy expressions, coding the derivatives of contracted Gaussian overlap integrals (s and p functions) with respect to nuclear coordinates, and computing γ<sub>AB</sub> integral derivatives while leveraging translational invariance and symmetry to reduce redundant calculations by 50%. I also implemented the derivative of the nuclear repulsion term (V<sub>nuc</sub>) and assembled the full 3N-dimensional gradient vector for all atoms. Performance optimizations achieved O(N²) scaling for large systems, and results were validated against finite-difference gradients with errors below 10⁻⁶ Hartree/Bohr. The implementation was tested on diatomic and triatomic molecules (CO, HF, H₂O, NH₃), with optimized geometries matching reference data from Pople & Beveridge. This project combined C++ development, numerical optimization, and computational chemistry algorithms to extend an existing scientific codebase with new high-performance functionality.
+
+
 3D MRI Tumor Segmentation and Classification | Python, TensorFlow, Keras		  Nov. 2024  - Dec. 2024
 https://github.com/stemesghen/3D-MRI-Tumor-Segmentation-and-Classification-3D-Unet-Model-.git
-Developing a 3D U-Net model for binary classification and segmentation of brain tumors using BraTS2020 MRI datasets.
+Developed a 3D U-Net model for binary classification and segmentation of brain tumors using BraTS2020 MRI datasets.
 Preprocess multimodal MRI scans (T1CE, T2-weighted, T2-FLAIR) by scaling with MinMaxScaler, combining channels,
 cropping black spaces, and filtering underrepresented labels.
 Implementing data augmentation using patchify to create smaller patches(64x64x64) for computational efficiency and
@@ -27,12 +33,12 @@ Trained and validated the model on 369 patient scans (augmented to 738) using cu
 
 Disaster Type and Damage Level Classification from Satellite Imagery | Python, scikit-learn, OpenCV, TensorFlow                      Sept. 2024 – Dec. 2024
 https://github.com/stemesghen/Natural-Disaster-Detection---Computer-Vision.git
-Developed a machine learning pipeline to classify disaster types and damage levels from over 26,000 satellite images covering Hurricane Matthew, Southern California fires, and Midwest flooding. Implemented image preprocessing techniques including resizing, pixel normalization, and thresholding. Extracted structural and texture-based features using Sobel edge detection, RGB channel statistics, Local Binary Patterns (LBP), and Gabor filters. Engineered a feature matrix for supervised learning, training logistic regression and random forest models for binary (disaster type) and multiclass (damage level) classification. Tuned hyperparameters using grid search with cross-validation, evaluating performance with accuracy, F1 score, and cross-entropy loss. Achieved over 93% accuracy in disaster type classification and identified top predictive features such as RGB mean and LBP variance. Addressed class imbalance through sampling strategies and class weighting, and analyzed confusion matrices to interpret model bias and misclassification patterns.
+Integrated machine learning pipeline to classify disaster types and damage levels from over 26,000 satellite images covering Hurricane Matthew, Southern California fires, and Midwest flooding. Implemented image preprocessing techniques including resizing, pixel normalization, and thresholding. Extracted structural and texture-based features using Sobel edge detection, RGB channel statistics, Local Binary Patterns (LBP), and Gabor filters. Engineered a feature matrix for supervised learning, training logistic regression and random forest models for binary (disaster type) and multiclass (damage level) classification. Tuned hyperparameters using grid search with cross-validation, evaluating performance with accuracy, F1 score, and cross-entropy loss. Achieved over 93% accuracy in disaster type classification and identified top predictive features such as RGB mean and LBP variance. Addressed class imbalance through sampling strategies and class weighting, and analyzed confusion matrices to interpret model bias and misclassification patterns.
 
 
 Anomaly Detection for Parasitized Cell Images | Python, TensorFlow, Keras, Machine Learning                                            Nov. 2024 
 https://github.com/stemesghen/Anomaly-Detection-for-Parasitized-Cell-Images-.git
-Designed and implemented a convolutional auto encoder for anomaly detection in cell images using Keras and TensorFlow.
+Applied a convolutional auto encoder for anomaly detection in cell images using Keras and TensorFlow.
 Preprocessed images by resizing, thresholding, and normalizing, ensuring computational efficiency and reduced input dimensionality.
 Built an encoder-decoder architecture with a latent bottleneck layer to identify parasitized cells via reconstruction errors.
 Calculated reconstruction errors and latent-space densities using Kernel Density Estimation to classify anomalies.
@@ -41,7 +47,7 @@ Evaluated the model’s performance, achieving effective separation between heal
 
 Artificial Neural Network for Regression Tasks | Python, Keras, TensorFlow, Machine Learning                                           Oct. 2024
 https://github.com/stemesghen/Artificial_Neural_Network_model.git
-Designed and trained a fully connected artificial neural network (ANN) for non-linear function approximation. Constructed a multi-layer feedforward architecture using Keras with ReLU activations and MSE loss. Normalized input features and implemented early stopping and batch training to optimize learning efficiency. Compared ANN performance against traditional regression models (Lasso and Ridge), showing improved fit in high-dimensional, non-linear cases. Visualized training loss and prediction accuracy to assess convergence and generalization.
+Trained a fully connected artificial neural network (ANN) for non-linear function approximation. Constructed a multi-layer feedforward architecture using Keras with ReLU activations and MSE loss. Normalized input features and implemented early stopping and batch training to optimize learning efficiency. Compared ANN performance against traditional regression models (Lasso and Ridge), showing improved fit in high-dimensional, non-linear cases. Visualized training loss and prediction accuracy to assess convergence and generalization.
 
 
 Surrogate Modeling with Lasso and Ridge Regression | Python, scikit-learn                                                               Oct. 2024
