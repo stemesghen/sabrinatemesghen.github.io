@@ -9,7 +9,7 @@ Personal website of Sabrina, a Software Engineer and Machine Learning Developer 
 4. [3D MRI Tumor Segmentation and Classification](#3d-mri-tumor-segmentation-and-classification)
 5. [Disaster Type and Damage Level Classification from Satellite Imagery](#disaster-type-and-damage-level-classification-from-satellite-imagery)
 6. [Anomaly Detection for Parasitized Cell Images](#anomaly-detection-for-parasitized-cell-images)
-7. Artificial Neural Network for Regression Tasks](#artificial-neural-network-for-regression-tasks)
+7. [Artificial Neural Network for Regression Tasks](#artificial-neural-network-for-regression-tasks)
 8. [Surrogate Modeling with Lasso and Ridge Regression](#surrogate-modeling-with-lasso-and-ridge-regression)
 9. [Monte Carlo Simulation for Lennard-Jones Potential](#monte-carlo-simulation-for-lennard-jones-potential)
 
