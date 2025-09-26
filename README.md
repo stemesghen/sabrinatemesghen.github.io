@@ -1,9 +1,26 @@
 # sabrinatemesghen.github.io
 Personal website of Sabrina Temesghen, a Software Engineer and Machine Learning Developer with a background in Molecular Science and Software Engineering from UC Berkeley. I build production-ready tools that blend AI with real-world impact in biology, healthcare, and data science. Explore my projects below.
 
+# Portfolio Projects
+
+## Table of Contents
+1. [Bringing Functional Dark Matter Annotations into the Fold](#bringing-functional-dark-matter-annotations-into-the-fold)
+2. [Telematics Usage-Based Insurance (UBI) Pipeline](#telematics-usage-based-insurance-ubi-pipeline)
+3. [Analytic Gradient Implementation for CNDO/2 Hartree–Fock](#analytic-gradient-implementation-for-cndo2-hartreefock)
+4. [3D MRI Tumor Segmentation and Classification](#3d-mri-tumor-segmentation-and-classification)
+5. [Disaster Type and Damage Level Classification from Satellite Imagery](#disaster-type-and-damage-level-classification-from-satellite-imagery)
+6. [Anomaly Detection for Parasitized Cell Images](#anomaly-detection-for-parasitized-cell-images)
+7. [Artificial Neural Network for Regression Tasks](#artificial-neural-network-for-regression-tasks)
+8. [Surrogate Modeling with Lasso and Ridge Regression](#surrogate-modeling-with-lasso-and-ridge-regression)
+9. [Monte Carlo Simulation for Lennard-Jones Potential](#monte-carlo-simulation-for-lennard-jones-potential)
+
 
 
 Projects:
+
+Telematics Usage-Based Insurance (UBI) Pipeline | Python, scikit-learn, FastAPI, Docker    Sep. 2025
+https://github.com/stemesghen/telematics-integration-auto-insurance-project.git 
+Built an end-to-end proof-of-concept pipeline for usage-based auto insurance, simulating trip-level driving data and aggregating into monthly driver features. Trained a calibrated logistic regression risk model and mapped predictions to capped pricing factors (0.9–1.1) for fairness and regulatory alignment. Exposed RESTful APIs (/score, /pricing) via FastAPI with an optional Streamlit dashboard for interactive exploration. Containerized the pipeline with Docker and Docker Compose for reproducibility and scalable deployment. Achieved >90% calibration accuracy on simulated data, balancing interpretability, risk fairness, and deployment readiness.
 
 Bringing Functional Dark Matter Annotations into the fold| Python, Foldseek, MMseq2		   Jan. 2025 - May 2025
 https://github.com/JXDolan/bring_dark_matter_into_fold
