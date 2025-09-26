@@ -3,13 +3,13 @@ Personal website of Sabrina, a Software Engineer and Machine Learning Developer 
 # Portfolio Projects
 
 ## Table of Contents
-1. [Bringing Functional Dark Matter Annotations into the Fold](#bringing-functional-dark-matter-annotations-into-the-fold)
-2. [Telematics Usage-Based Insurance (UBI) Pipeline](#telematics-usage-based-insurance-ubi-pipeline)
+1. [Telematics Usage-Based Insurance (UBI) Pipeline](#telematics-usage-based-insurance-ubi-pipeline)
+2. [Bringing Functional Dark Matter Annotations into the Fold](#bringing-functional-dark-matter-annotations-into-the-fold)
 3. [Analytic Gradient Implementation for CNDO/2 Hartree–Fock](#analytic-gradient-implementation-for-cndo2-hartree–fock)
 4. [3D MRI Tumor Segmentation and Classification](#3d-mri-tumor-segmentation-and-classification)
 5. [Disaster Type and Damage Level Classification from Satellite Imagery](#disaster-type-and-damage-level-classification-from-satellite-imagery)
 6. [Anomaly Detection for Parasitized Cell Images](#anomaly-detection-for-parasitized-cell-images)
-7. [Artificial Neural Network for Regression Tasks](#artificial-neural-network-for-regression-tasks)
+7. Artificial Neural Network for Regression Tasks](#artificial-neural-network-for-regression-tasks)
 8. [Surrogate Modeling with Lasso and Ridge Regression](#surrogate-modeling-with-lasso-and-ridge-regression)
 9. [Monte Carlo Simulation for Lennard-Jones Potential](#monte-carlo-simulation-for-lennard-jones-potential)
 
