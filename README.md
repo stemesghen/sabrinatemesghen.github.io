@@ -32,7 +32,7 @@ Designed a structure-aware protein annotation pipeline to detect remote homologs
 ---
 
 ## Analytic Gradient Implementation for CNDO/2 Hartree–Fock | C++, Armadillo  
-*May 2024*  
+*May 2025*  
 [GitHub Repo](https://github.com/stemesghen/Numerical-Algorithms-Applied-to-Computational-Quantum-Chemistry/tree/main)
 
 Engineered an analytic nuclear gradient module into a CNDO/2 Self-Consistent Field (SCF) quantum chemistry engine to enable efficient geometry optimization without relying on finite-difference derivatives. This involved deriving and implementing the x and y coefficient matrices from SCF energy expressions, coding the derivatives of contracted Gaussian overlap integrals (s and p functions) with respect to nuclear coordinates, and computing γ<sub>AB</sub> integral derivatives while leveraging translational invariance and symmetry to reduce redundant calculations by 50%. I also implemented the derivative of the nuclear repulsion term (V<sub>nuc</sub>) and assembled the full 3N-dimensional gradient vector for all atoms. Performance optimizations achieved O(N²) scaling for large systems, and results were validated against finite-difference gradients with errors below 10⁻⁶ Hartree/Bohr. The implementation was tested on diatomic and triatomic molecules (CO, HF, H₂O, NH₃), with optimized geometries matching reference data from Pople & Beveridge.
