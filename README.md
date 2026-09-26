@@ -1,18 +1,33 @@
-Personal website of Sabrina, a Software Engineer and Machine Learning Developer with a background in Molecular Science and Software Engineering from UC Berkeley. I build production-ready tools that blend AI with real-world impact in biology, healthcare, and data science. Explore my projects below.
+Personal website of Sabrina Temesghen, an AI/ML Engineer with a background in Molecular Science and Software Engineering from UC Berkeley. I build machine learning, generative AI, and data-driven systems with applications across healthcare, biology, and data science. Explore my projects below.
 
 # Portfolio Projects
 
 ## Table of Contents
-1. [Telematics Usage-Based Insurance (UBI) Pipeline](#telematics-usage-based-insurance-ubi-pipeline)
-2. [Bringing Functional Dark Matter Annotations into the Fold](#bringing-functional-dark-matter-annotations-into-the-fold)
-3. [Analytic Gradient Implementation for CNDO/2 Hartree–Fock](#analytic-gradient-implementation-for-cndo2-hartree–fock)
-4. [3D MRI Tumor Segmentation and Classification](#3d-mri-tumor-segmentation-and-classification)
-5. [Disaster Type and Damage Level Classification from Satellite Imagery](#disaster-type-and-damage-level-classification-from-satellite-imagery)
-6. [Anomaly Detection for Parasitized Cell Images](#anomaly-detection-for-parasitized-cell-images)
-7. [Artificial Neural Network for Regression Tasks](#artificial-neural-network-for-regression-tasks)
-8. [Surrogate Modeling with Lasso and Ridge Regression](#surrogate-modeling-with-lasso-and-ridge-regression)
-9. [Monte Carlo Simulation for Lennard-Jones Potential](#monte-carlo-simulation-for-lennard-jones-potential)
 
+1. [Hybrid RAG System for Document Question Answering](#hybrid-rag-system-for-document-question-answering)
+2. [Telematics Usage-Based Insurance (UBI) Pipeline](#telematics-usage-based-insurance-ubi-pipeline)
+3. [Bringing Functional Dark Matter Annotations into the Fold](#bringing-functional-dark-matter-annotations-into-the-fold)
+4. [Analytic Gradient Implementation for CNDO/2 Hartree–Fock](#analytic-gradient-implementation-for-cndo2-hartree–fock)
+5. [3D MRI Tumor Segmentation and Classification](#3d-mri-tumor-segmentation-and-classification)
+6. [Disaster Type and Damage Level Classification from Satellite Imagery](#disaster-type-and-damage-level-classification-from-satellite-imagery)
+7. [Anomaly Detection for Parasitized Cell Images](#anomaly-detection-for-parasitized-cell-images)
+8. [Artificial Neural Network for Regression Tasks](#artificial-neural-network-for-regression-tasks)
+9. [Surrogate Modeling with Lasso and Ridge Regression](#surrogate-modeling-with-lasso-and-ridge-regression)
+10. [Monte Carlo Simulation for Lennard-Jones Potential](#monte-carlo-simulation-for-lennard-jones-potential)
+
+---
+
+## Hybrid RAG System for Document Question Answering | Python, Elasticsearch, Docling, Qwen, Sentence Transformers, Gemini
+
+[GitHub Repo](https://github.com/stemesghen/torch-ai-rag-assessment.git)
+
+Built an end-to-end retrieval-augmented generation (RAG) system for grounded question answering over complex documents. Parsed and structure-aware chunked source documents with Docling, generated 1024-dimensional dense embeddings using Qwen, and indexed chunk text, embeddings, and document metadata in Elasticsearch. Implemented hybrid retrieval combining BM25 lexical search with kNN dense vector search, followed by Reciprocal Rank Fusion (RRF) and cross-encoder reranking to select the most relevant context for generation.
+
+Preserved document provenance throughout the retrieval pipeline, including source document, page, section heading, and chunk identifiers, enabling generated answers to provide traceable source citations. Integrated Gemini for structured answer generation with explicit insufficient-context behavior for unsupported questions. Evaluated retrieval quality using Recall@K, nDCG, and MRR alongside negative-query testing to assess groundedness and reduce unsupported generation.
+
+The system demonstrates an end-to-end workflow spanning document ingestion, metadata-aware indexing, dense and sparse retrieval, rank fusion, reranking, LLM generation, evaluation, and source attribution.
+
+---
 ---
 
 ## Telematics Usage-Based Insurance (UBI) Pipeline | Python, scikit-learn, FastAPI, Docker  
